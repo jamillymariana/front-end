@@ -18,6 +18,32 @@
             <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="20">
         </p>
     </fieldset>
+    <fieldset>
+        <legend> Endereço </legend>
+        <p>
+            <label for="rua">Rua: </label>
+            <input type="text" id="rua" placeholder="digite sua rua" maxlength="300">
+        </p>
+        <p>
+            <label for="numero">Numero: </label>
+            <input type="number" id="numero" min="0" max="9999">
+        </p>
+        <p>
+            <label for="estado">Estado</label>
+            <select id="estado">
+                <optgroup label="Região sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santos</option>
+                <optgroup label="Regão sul">
+                    <option value="PR">Parana</option>
+                    <option value="SC">Santa Catarina</option>
+                    </optgroup>
+            </optgroup>
+        </select>
+        </p>
+    </fieldset>
    </form>
     <header>
         <div> <h1>Logomarca</h1> </div>
